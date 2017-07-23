@@ -1,0 +1,17 @@
+$(document).ready(function(){
+   $(".illus").click(function(){
+        $(".ai").css("display","flex");
+        $(".web").css("display","none");
+        $(".ps").css("display","none");
+    });
+    $(".website").click(function(){
+        $(".ai").css("display","none");
+        $(".web").css("display","flex");
+        $(".ps").css("display","none");
+    });
+    $(".photo").click(function(){
+        $(".ai").css("display","none");
+        $(".web").css("display","none");
+        $(".ps").css("display","flex");
+    });
+});

@@ -1,0 +1,517 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900|Lato:400,700,900|Fjalla+One|Alegreya+Sans:400,500,900);
+body{
+	background-color: #fff;
+	font-family: "Lato";
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	
+}
+p{
+	font-family: "Lato";
+	font-size: 1.1rem;
+}
+.hd{
+	color:rgb(28, 170, 143);
+}
+.chk{
+	background-color: rgb(20, 51, 83);
+	-webkit-background-size: cover;
+	height: 80vh;
+	background-size: cover;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	background-color: rgb(20, 51, 83);
+	color: white;
+	
+}
+::-webkit-input-placeholder{
+	font-family:  "Lato", sans-serif;
+	font-size: 1rem;
+}
+img{
+	max-width: 100%;
+}
+
+.same p{
+	line-height: 1.8rem;
+	word-spacing: .2rem;
+}
+ul li{
+	list-style-type: none;
+}
+.round{
+	border-radius: 50%;
+	width: 50%;
+}
+.aboutme{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 2rem;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+.me{
+	width: 100%;
+	text-align: center;
+}
+.aboutme .pic{
+	-ms-flex-preferred-size: 35%;
+	    flex-basis: 35%;
+}
+.aboutme .selfintro{
+	-ms-flex-preferred-size: 70%;
+	    flex-basis: 70%;
+	margin-top: 2rem;
+}
+.seventy{
+	width: 75%;
+	line-height: 1.8rem;
+	word-spacing: .0500rem;
+}
+.logo h1{
+	margin-left: 2rem;
+	font-family: "Roboto",sans-serif;
+	color: rgb(28, 170, 143);
+	
+}
+.uper{
+	position: absolute;
+	left:35%;
+	top:30%;
+	
+}
+.bord{
+	font-family: "Lato",sans-serif;
+	font-size:1.3rem;
+	color:white;
+}
+.bord1{
+	font-family: "Playfair",sans-serif;
+	font-size:2.8rem;
+	color:white;
+	letter-spacing: .1rem;
+}
+.uper button{
+	font-family: "Lato",sans-serif;
+    font-size: 1rem;
+    width: 33%;
+    height: 37px;
+    color: white;
+}
+.cnct{
+	background-color: rgb(28, 170, 143);
+}
+.cnct1{
+	background-color: rgb(20, 51, 83);
+    border: 2.8px solid white;
+    margin-left: .3rem;
+}
+.menu li{
+	margin-right: 4.5rem;
+	margin-top: 1rem;
+}
+.try{
+	border-bottom: 2px solid gray;
+
+}
+ul li a{
+	text-decoration: none;
+	padding: .2rem;
+	font-size: 1.2rem;
+}
+.ch li a{
+	color:rgb(28, 170, 180);
+	font-family: "Lato";
+	font-weight: 700;
+}
+
+.menu{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.menuitem li{
+	display: inline;
+}
+.menuitem{
+	padding-top: .7rem;
+}
+.menu a{
+	text-decoration: none;
+	color: rgb(28, 170, 143);
+}
+.menuitem a{
+	text-decoration: none;
+	color: white;
+}
+.items{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.work{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+.same{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	margin: 2rem;
+}
+.limg{
+	-ms-flex-preferred-size: 40%;
+	    flex-basis: 40%;
+}
+.desc{
+	margin-top: 1.5rem;
+	-ms-flex-preferred-size: 35%;
+	    flex-basis: 35%;
+}
+
+input[type="text"],input[type="email"]{
+	width:100%;
+	height: 30px;
+
+}
+textarea{
+	width: 100%;
+}
+input[type="button"]{
+	width: 30%;
+	height: 35px;
+	font-family: "Lato",sans-serif;
+	font-weight: 400;
+	font-size: 1.3rem;
+	margin: .5rem;
+	color: white;
+	background-color: rgb(28, 170, 143);
+}
+.footer{
+	background-color: black;
+	color: white;
+	height: 70px;
+	padding-top: 1.4rem;
+}
+footer a{
+	text-decoration: none;
+	font-family: "Lato";
+	font-size: 1.4rem;
+	color: rgb(28, 170, 143);
+}
+.ai,.ps{
+	display: none;
+}
+.contact{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	background-color: rgb(233, 233, 233);
+	padding: 2rem;
+}
+.cleft{
+	-ms-flex-preferred-size: 40%;
+	    flex-basis: 40%;
+	text-align: left;
+}
+.cright{
+	-ms-flex-preferred-size: 20%;
+	    flex-basis: 20%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.social{
+	text-align: center;
+}
+.social i {
+	color:black;
+	padding: .5rem;
+
+}
+.cright h2{
+	font-family: "Lato";
+	font-size: 1.8rem;
+
+}
+.cright h4{
+	letter-spacing: .1rem;
+}
+
+@media screen and (max-width: 380px)
+{
+.menu{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.uper button{
+	font-size: .8rem;
+}
+.menu li{
+	margin-right: 0rem;
+	margin-top: 0rem;
+}
+.items{
+	display: block;
+}
+	.chk{
+	background-color: rgb(20, 51, 83);
+	-webkit-background-size: cover;
+	height: 70vh;
+	background-size: cover;
+	
+}
+.cleft {
+    -ms-flex-preferred-size: 40%;
+     flex-basis: 100%; 
+ }
+input[type="button"] {
+    width: 50%;
+    height: 35px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    /* margin: .5rem; */
+    color: white;
+    background-color: rgb(28, 170, 143);
+}
+.bord{
+	display: none;
+}
+.bord1{
+	font-size: 2rem;
+}
+.uper{
+	position: absolute;
+	left:0%;
+	top:25%;
+}
+
+.aboutme{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 2rem;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.me{
+	width: 100%;
+	
+}
+.seventy{
+	width: 100%;
+	line-height: 1.8rem;
+	word-spacing: .0500rem;
+
+}
+.work{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	
+}
+.same{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 2rem;
+}
+.limg{
+	-ms-flex-preferred-size: 40%;
+	    flex-basis: 40%;
+}
+.desc{
+	margin-top: 1.5rem;
+	-ms-flex-preferred-size: 35%;
+	    flex-basis: 35%;
+}
+.ai,.ps{
+	display: none;
+}
+
+}
+@media screen and (min-width: 381px) and (max-width: 500px){
+	.uper{
+	position: absolute;
+	left:20%;
+	top:25%;
+}
+.bord1{
+	font-size: 1.9rem;
+}
+.menu li{
+	margin-right: 0rem;
+	margin-top: 0rem;
+}
+.uper button{
+	font-size: .95rem;
+}
+.aboutme{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 2rem;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.me{
+	width: 100%;
+	
+}
+.seventy{
+	width: 100%;
+	line-height: 1.8rem;
+	word-spacing: .0500rem;
+
+}
+.work{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	
+}
+.same{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 2rem;
+}
+.limg{
+	-ms-flex-preferred-size: 40%;
+	    flex-basis: 40%;
+}
+.desc{
+	margin-top: 1.5rem;
+	-ms-flex-preferred-size: 35%;
+	    flex-basis: 35%;
+}
+.ai,.ps{
+	display: none;
+}
+
+}
+@media screen and (min-width: 501px) and (max-width: 871px){
+
+.uper{
+	left:30%;
+	top:25%;
+}
+.bord1{
+	font-size: 2rem;
+}
+.aboutme{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 2rem;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.me{
+	width: 100%;
+	
+}
+.seventy{
+	width: 100%;
+	line-height: 1.8rem;
+	word-spacing: .0500rem;
+
+}
+.work{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	
+}
+.same{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 2rem;
+}
+.limg{
+	-ms-flex-preferred-size: 40%;
+	    flex-basis: 40%;
+}
+.desc{
+	margin-top: 1.5rem;
+	-ms-flex-preferred-size: 35%;
+	    flex-basis: 35%;
+}
+.ai,.ps{
+	display: none;
+}
+
+}
